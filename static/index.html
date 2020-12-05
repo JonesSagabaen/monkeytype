@@ -1341,44 +1341,50 @@
             <div class="section">
               <h1>stats</h1>
               <p>
-                wpm - total amount of characters in the correctly typed words
+                wpm - Total amount of characters in the correctly typed words
                 (including spaces), divided by 5 and normalised to 60 seconds.
               </p>
               <p>
-                raw wpm - calculated just like wpm, but also includes incorrect
-                words.
-              </p>
-              <p>acc - percentage of correctly pressed keys.</p>
+	        acc - Percentage of correctly pressed keys.
+	      </p>
               <p>
-                char - correct characters / incorrect characters. Calculated
-                after the test has ended.
+                raw - Just like 'wpm' but also includes incorrect words.
               </p>
               <p>
-                consistency - based on the variance of your raw wpm. Closer to
+                characters -
+		Count for the number of correct characters/incorrect characters
+		/extra characters/missed characters. Calculated after the test 
+		has ended.
+              </p>
+              <p>
+                consistency - Based on the variance of your raw WPM. Closer to
                 100% is better. Calculated using the coefficient of variation of
-                raw wpm and mapped onto a scale from 0 to 100.
+                raw WPM and mapped onto a scale from 0 to 100.
+              </p>
+              <p>
+                time - Time in seconds.
               </p>
             </div>
             <div class="section">
               <h1>results screen</h1>
               <p>
-                After completing a test you will be able to see your wpm, raw
-                wpm, accuracy, character stats, test length, leaderboards info
+                After completing a test you will be able to see your WPM, raw
+                WPM, accuracy, character entry stats, test length, leaderboards info
                 and test info. (you can hover over some values to get floating
-                point numbers). You can also see a graph of your wpm and raw
-                over the duration of the test. Remember that the wpm line is a
-                global average, while the raw wpm line is a local, momentary
+                point numbers). You can also see a graph of your WPM and raw
+                over the duration of the test. Remember that the WPM line is a
+                global average, while the raw WPM line is a local, momentary
                 value. (meaning if you stop, the value is 0)
               </p>
-            </div>
+            </divS>
             <div class="section">
               <h1>bug report or feature request</h1>
               <p>
-                If you encounter a bug, or have a feature request - join the
+                If you encounter a bug, or have a feature request, join the
                 <a href="https://discord.gg/yENzqcB" target="_blank">
                   Discord server
                 </a>
-                , send me a message on Reddit or create an issue on
+                . Send me a message on Reddit or create an issue on
                 <a href="https://github.com/Miodec/monkeytype" target="_blank">
                   GitHub
                 </a>
@@ -1392,7 +1398,8 @@
                 fuel my caffeine addiction, you can join the
                 <a href="https://www.patreon.com/monkeytype">Patreon</a>
                 or donate
-                <a href="https://www.paypal.me/jackbartnik">here.</a>
+                <a href="https://www.paypal.me/jackbartnik">here</a>
+		.
               </p>
             </div>
             <div class="section">
@@ -1401,7 +1408,7 @@
                 <a href="https://www.reddit.com/user/montydrei" target="_blank">
                   montydrei
                 </a>
-                - name suggestion
+                for the name suggestion.
               </p>
               <p>
                 <a
@@ -1411,7 +1418,7 @@
                   Everyone
                 </a>
                 who provided valuable feedback on the original reddit post for
-                the prototype of this website
+                the prototype of this website.
               </p>
               <p>
                 <a
@@ -1420,7 +1427,7 @@
                   Contributors
                 </a>
                 on GitHub that have helped with implementing various features,
-                adding themes and more.
+                adding themes, and more.
               </p>
             </div>
             <div class="section">
@@ -1885,7 +1892,7 @@
               </div>
               <div class="section indicateTypos" section="">
                 <h1>indicate typos</h1>
-                <div class="text">Show typos underneath the letters</div>
+                <div class="text">Show typos underneath the letters.</div>
                 <div class="buttons">
                   <div class="button off" tabindex="0" onclick="this.blur();">
                     off
@@ -2217,7 +2224,7 @@
               <div class="section timerColor" section="">
                 <h1>timer/progress color</h1>
                 <div class="text">
-                  Change the color of the timer/progress number/bar and live wpm
+                  Change the color of the timer/progress, number/bar, and live WPM
                   number.
                 </div>
                 <div class="buttons">
@@ -2258,8 +2265,8 @@
               <div class="section timerOpacity" section="">
                 <h1>timer/progress opacity</h1>
                 <div class="text">
-                  Change the opacity of the timer/progress number/bar and live
-                  wpm number.
+                  Change the opacity of the timer/progress, number/bar, and live
+                  WPM number.
                 </div>
                 <div class="buttons">
                   <div
@@ -2340,7 +2347,7 @@
                   When enabled, the website will show all lines for word, custom
                   and quote mode tests - otherwise the lines will be limited to
                   3, and will automatically scroll. Using this could cause the
-                  timer text and live wpm to not be visible.
+                  timer text and live WPM to not be visible.
                 </div>
                 <div class="buttons">
                   <div class="button off" tabindex="0" onclick="this.blur();">
@@ -2399,8 +2406,8 @@
               <div class="section keymapMode">
                 <h1>keymap</h1>
                 <div class="text">
-                  Displays your current layout while taking a test. React shows
-                  what you pressed and Next shows what you need to press next.
+                  Displays your current layout while taking a test. 'React' setting 
+		  shows what you pressed and Next shows what you need to press next.
                 </div>
                 <div class="buttons">
                   <div
@@ -2882,7 +2889,7 @@
                   Sellout mode also shows ads on both sides of the screen.
                   <br />
                   <br />
-                  (changes will take effect after a refresh).
+                  (Changes will take effect after a refresh.)
                 </div>
                 <div class="buttons">
                   <div
@@ -2915,7 +2922,7 @@
                 <h1>reset settings</h1>
                 <div class="text">
                   Resets settings to the default (but doesn't touch your tags).
-                  Warning: you can't undo this action!
+                  Warning: You cannot undo this action!
                 </div>
                 <div class="buttons">
                   <div
